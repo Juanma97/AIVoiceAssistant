@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         private const val REQUEST_CODE_VOICE_INPUT = 100
     }
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -47,6 +46,4 @@ class MainActivity : AppCompatActivity() {
             textToSpeech.speak("Respuesta de ChatGPT", TextToSpeech.QUEUE_FLUSH, null)
         }
     }
-
-
 }

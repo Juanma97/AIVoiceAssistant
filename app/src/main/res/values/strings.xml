@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AIVoiceAssistant</string>
+    <string name="textButton">Make your question!</string>
 </resources>
